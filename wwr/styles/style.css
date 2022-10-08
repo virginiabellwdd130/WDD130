@@ -6,7 +6,6 @@
 nav a {
     text-align: center;
     text-decoration: none;
-    min-width: 120px;
     color:#05668d;
 }
 
@@ -25,6 +24,7 @@ nav a {
 }
 
 .home-grid {
+    text-align: center;
     color:#05668d
 }
 
@@ -33,7 +33,7 @@ nav a {
     
 }
 body {
-    background-color: white;
+    background-color: #f0f3bd;
 }
 header {
     background-color: #02c39a;
