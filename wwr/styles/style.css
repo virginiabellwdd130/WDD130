@@ -30,6 +30,7 @@ nav a {
 
 #background {
     height: 725px;
+    color:#f0f3bd;
     
 }
 body {
@@ -74,7 +75,7 @@ nav a:hover {
 }
 
 footer {
-    background-color: #f0f3bd;
+    background-color:#02c39a;
     color:#05668d;
 }
 footer p {
