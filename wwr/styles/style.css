@@ -34,7 +34,7 @@ nav a {
     
 }
 body {
-    background-color: #f0f3bd;
+    background-color:aquamarine;
 }
 header {
     background-color: #02c39a;
@@ -45,7 +45,7 @@ nav a:hover {
 }
 .book {
     text-decoration: none;
-    background-color: a#02c39a;
+    background-color: #02c39a;
     color: #05668d;
 }
 .join {
