@@ -1,4 +1,4 @@
-.content {
+#content {
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -23,7 +23,7 @@ nav a {
     
 }
 
-.home-grid {
+.main section {
     text-align: center;
     color:#05668d
 }
@@ -45,12 +45,11 @@ nav a:hover {
 }
 .book {
     text-decoration: none;
-    background-color: #02c39a;
     color: #05668d;
 }
 .join {
     text-decoration: none;
-    background-color: a#02c39a;
+    background-color: #02c39a;
     color: #05668d;
 }
 .book:hover {
@@ -64,10 +63,11 @@ nav a:hover {
 .home-title {
     color:#05668d;
 }
-.msg{
+.msg {
     color:#02c39a;
+    background-color:#396E94;
 }
-.msg h2{
+.msg h2 {
     color:#02c39a;
 }
 .msg p {
