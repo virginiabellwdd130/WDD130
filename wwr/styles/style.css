@@ -85,14 +85,13 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+    background-color:#f0f3bd;
 } 
 footer a {
     text-decoration: none;
-    background-color: #f0f3bd;
     color:#05668d;
 }
 footer a:hover {
-    background-color: #f0f3bd;
     color:#05668d;
 }
 .icon {
