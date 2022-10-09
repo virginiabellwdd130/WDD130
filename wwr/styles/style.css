@@ -30,7 +30,7 @@ nav a {
 
 #background {
     height: 725px;
-    background-color:#396E94;
+    background-color:#02c39a;
     
 }
 body {
@@ -69,10 +69,10 @@ nav a:hover {
     background-color: #02c39a;
 }
 .msg h2 {
-    color:#02c39a;
+    color:#396E94;
 }
 .msg p {
-    color:#05668d;
+    color:#396E94;
 }
 
 footer {
