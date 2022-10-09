@@ -25,7 +25,7 @@ nav a {
 
 .main section {
     text-align: center;
-    color:#05668d
+    background-color:#f0f3bd;
 }
 
 #background {
@@ -45,12 +45,13 @@ nav a:hover {
 }
 .book {
     text-decoration: none;
-    color: #05668d;
+    background-color: white;
+    color: black;
 }
 .join {
     text-decoration: none;
-    background-color: #02c39a;
-    color: #05668d;
+    background-color: white;
+    color: black;
 }
 .book:hover {
     background-color: #f0f3bd;
@@ -58,14 +59,14 @@ nav a:hover {
 }
 .join:hover {
     background-color: #f0f3bd;
-    color: #02c39a;
+    color:#02c39a;
 }
 .home-title {
     color:#05668d;
 }
 .msg {
     color:#02c39a;
-    background-color:#396E94;
+    background-color: #05668d;
 }
 .msg h2 {
     color:#02c39a;
