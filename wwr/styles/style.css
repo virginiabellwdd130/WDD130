@@ -36,7 +36,7 @@ main section {
 }
 body {
     background-color:#f0f3bd;
-    font-family: 'Cabin', 'Lobster', 'Georgia', 'serif';
+    font-family: 'Cabin', 'Lobster', 'Georgia', 'serif', cursive;
 }
 header {
     background-color: #02c39a;
