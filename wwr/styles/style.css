@@ -37,6 +37,7 @@ main section {
 body {
     background-color:#f0f3bd;
     font-family: 'Cabin', 'Lobster', 'Georgia', 'san serif', 'cursive';
+    font-size: 22px;
 }
 header {
     background-color: #02c39a;
@@ -49,11 +50,13 @@ nav a:hover {
     text-decoration: none;
     background-color: #396E94;
     color: black;
+    font-size: 18px;
 }
 .join {
     text-decoration: none;
     background-color: #396E94;
     color: black;
+    font-size: 18px;
 }
 .book:hover {
     background-color: #f0f3bd;
@@ -77,6 +80,7 @@ nav a:hover {
 }
 .msg p {
     color:#396E94;
+    font-size: 8em;
 }
 
 footer {
