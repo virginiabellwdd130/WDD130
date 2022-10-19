@@ -90,12 +90,16 @@
   width: 50%; 
   height: 200px; 
   background-color: green;
+  grid-column-start: 1;
+  grid-column-end: 2;
   
 } 
 .yellow3 {
   width: 50%; 
   height: 200px; 
   background-color: gold;
+  grid-column-start: 1;
+  grid-column-end: 2;
   
 } 
 .blue3 {
@@ -103,7 +107,7 @@
   height: 100px; 
   background-color: blue;
   grid-column-start: 1;
-    grid-column-end: 2;
+  grid-column-end: 2;
 } 
 /* Activity 4 styles */ 
 .content4 {
