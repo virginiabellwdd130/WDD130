@@ -23,18 +23,28 @@ nav {
 }
 
 #hero-box {
+    display: grid;
     grid-column: 1/4;
     grid-row: 1/3; 
 }
 
+#hero-msg {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+}
 
 #hero-msg h1 {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
     text-align: center;
 } 
   
 #hero-msg h4 {
     text-align: center;
-    color:#05668d;
+    color:#ffffff;
 }
 
 .button-box {
