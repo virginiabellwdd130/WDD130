@@ -7,7 +7,7 @@ Fonts are separated by a | */
   /* change the values below to your colors from your palette */
   --primary-color: #EFD3AF;
   --secondary-color: #8E8F72;
-  --accent1-color: #C8B996;
+  --accent1-color: #70556e;
   --accent2-color: #CF7B61;
 
   /* change the values below to your chosen font(s) */
@@ -18,12 +18,12 @@ Fonts are separated by a | */
   --headline-color-on-white: #CF7B61;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: #CF7B61; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #8E8F72; /* paragraph text on a colored background */ 
+  --paragraph-color-on-color: #70556e; /* paragraph text on a colored background */ 
   --paragraph-background-color: #EFD3AF;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
+  --nav-link-color: #70556e;
+  --nav-background-color: #faf9f5;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --nav-hover-background-color: #f4f6f8;
 }
 
 
