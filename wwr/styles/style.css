@@ -125,7 +125,6 @@ nav a:hover {
 }
 
 .rivers-card {
-    border: 15px solid;
     margin: 200px 0;
     grid-column: 2/4;
     grid-row: 2/3;
@@ -133,21 +132,19 @@ nav a:hover {
 }
 
 .camping-card {
-    border: 15px solid;
     margin: 200px 0;
     grid-column: 5/7;
     grid-row: 2/3;
 }
 
 .rapids-card {
-    border: 15px solid;
     margin: 200px 0;
     grid-column: 8/10;
     grid-row: 2/3;
 }
 
 .card-img, .mountains {
-    border: 15px solid;
+    border: 10px solid;
     width: 100%;
     grid-column: 2/7;
     grid-row: 5/8;
@@ -156,7 +153,7 @@ nav a:hover {
 
 }
 .msg {
-    border: 15px solid black;
+    border: 10px solid black;
     color:#396E94;
     background-color: #f0f3bd;
     line-height: 1.5em;
