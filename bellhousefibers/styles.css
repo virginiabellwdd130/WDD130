@@ -30,7 +30,7 @@
 
   body {
     font-family: var(--heading-font);
-    font-size: 20px;
+    font-size: 15px;
     color: var(--secondary-color);
   }
 
@@ -44,25 +44,26 @@
   }
 
   h1 {
-    font-size: 2.5em;
+    font-size: 2em;
 
   }
 
   h2 {
     font-family: var(--paragraph-font); 
-    font-size: 2em;
+    font-size: 1.75em;
   }
 
   h3 {
-    font-size: 1.75em;
+    font-size: 1.50em;
 
   }
 
   h4 {
-    font-size: 1.50em;
+    font-size: 1em;
   }
 
   p {
+    font-family: var(--paragraph-font); 
     padding: 0;
     margin: 0;
   }
@@ -81,6 +82,12 @@
     margin: 0 auto;
 
 }
+
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
 .buttons {
     grid-column: 1/-1;
     display: flex;
@@ -90,45 +97,41 @@
     border-radius: 20px;
 
 }
-.grid-section {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    margin: 3em, 0;
-    grid-column-start: 1;
-    grid-column-end: 13;
-    grid-row-start: 1;
-    grid-row-end: 3;
- 
-}
 
-.grid-section1 {
+/***********************************************************
+*
+* home page rules
+************************************************************/
+
+.grid-section1 img {
     display: grid;
+    width: 1200px;
+    margin: 1em, 0;
     grid-template-columns: repeat(12, 1fr);
-    margin: 3em, 0;
+    
     
 }
 
-.grid-section2 {
+.grid-section2 h1 p img{
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    
     margin: 3em, 0;
 }
 
 .grid-section3 {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    
     margin: 3em, 0;
 }
 
 .grid-section4 {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    
     margin: 3em, 0;
 }
-/***********************************************************
-*
-* home page rules
-************************************************************/
+
+
+
 /*.home-grid1 {
     background-color: #EFD3AF;
     padding: 1em;
@@ -203,7 +206,7 @@ nav a:hover {
 ***********************************************************/
 footer {
     background-color:#8E8F72;
-    color: var(--accent2-color);
+    color: var(--accent1-color);
     font-size: 1rem;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
