@@ -121,11 +121,26 @@
    
 }
 
-.grid-section2 h1 p img{
+.grid-section2 {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(4, 50px);
     margin: 3em, 0;
+}
+
+.grid-section2 h1 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 50px);
+    margin: 3em, 0;
+}
+
+.grid-section2 p {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 50px);
+    margin: 3em, 0;
+
 }
 
 .grid-section3 h1 p img{
