@@ -113,19 +113,22 @@
 
 .grid-section2 h1 p img{
     display: grid;
-    
+    grid-template-columns: repeat(2, 50px);
+    grid-template-rows: repeat(3, 50px);
     margin: 3em, 0;
 }
 
 .grid-section3 h1 p img{
     display: grid;
-    
+    grid-template-columns: repeat(2, 50px);
+    grid-template-rows: repeat(3, 50px);
     margin: 3em, 0;
 }
 
 .grid-section4 h1 p img{
     display: grid;
-    
+    grid-template-columns: repeat(2, 50px);
+    grid-template-rows: repeat(3, 50px);
     margin: 3em, 0;
 }
 
