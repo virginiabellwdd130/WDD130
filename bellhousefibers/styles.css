@@ -94,13 +94,42 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     margin: 3em, 0;
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 3;
+ 
 }
 
+.grid-section1 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 3em, 0;
+    
+}
+
+.grid-section2 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 3em, 0;
+}
+
+.grid-section3 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 3em, 0;
+}
+
+.grid-section4 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 3em, 0;
+}
 /***********************************************************
 *
 * home page rules
 ************************************************************/
-.home-grid1 {
+/*.home-grid1 {
     background-color: #EFD3AF;
     padding: 1em;
     grid-column: 1/13;
@@ -113,12 +142,12 @@
     grid-column: 2/5;
 
 }
-/*
+
 .home-grid2 p {
     background-color: #EFD3AF;
     grid-column: 2/6;
     
-}*/
+}
 .home-grid3 h1 {
     background-color: #EFD3AF;
     grid-column: 5/7;
