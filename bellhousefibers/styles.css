@@ -44,11 +44,12 @@
   }
 
   h1 {
-    font-size: 3em;
+    font-size: 2.5em;
 
   }
 
   h2 {
+    font-family: var(--paragraph-font); 
     font-size: 2em;
   }
 
@@ -92,6 +93,7 @@
 .grid-section {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    margin: 3em, 0;
 }
 
 /***********************************************************
@@ -102,21 +104,21 @@
     background-color: #EFD3AF;
     padding: 1em;
     grid-column: 1/13;
-    grid-row: 1;
+
     
 }
 
-.home-grid2 h1 {
+.home-grid2 h1 p img {
     background-color: #EFD3AF;
-    grid-column: 2/4;
-    grid-row: 3;
-}
+    grid-column: 2/5;
 
+}
+/*
 .home-grid2 p {
     background-color: #EFD3AF;
-    grid-column: 2/4;
-    grid-row: 4;
-}
+    grid-column: 2/6;
+    
+}*/
 .home-grid3 h1 {
     background-color: #EFD3AF;
     grid-column: 5/7;
