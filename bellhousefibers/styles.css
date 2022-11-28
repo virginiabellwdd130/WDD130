@@ -114,28 +114,28 @@
 * home page rules
 ************************************************************/
 
-.grid-section1 img {
+.grid-section img {
     width: 1200px;
     margin: 1em, 0;
     
    
 }
 
-.grid-section2 {
+.grid-section {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(4, 50px);
     margin: 3em, 0;
 }
 
-.grid-section2 h1 {
+.grid-section h1 {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(4, 50px);
     margin: 3em, 0;
 }
 
-.grid-section2 p {
+.grid-section p {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(4, 50px);
@@ -143,14 +143,14 @@
 
 }
 
-.grid-section3 h1 p img{
+.grid-section h1 p img{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(4, 50px);
     margin: 3em, 0;
 }
 
-.grid-section4 h1 p img{
+.grid-section h1 p img{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(4, 50px);
