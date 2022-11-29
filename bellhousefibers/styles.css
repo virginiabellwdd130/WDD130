@@ -102,7 +102,7 @@
     border-radius: 20px;
 
 }
-.grid-section {
+.grid-section hp-section-hero hp-section-featured hp-section-technique hp-section-practice{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 1em 0;
@@ -116,7 +116,7 @@
 /***********************************************
 Home section 1 Hero Image
 *************************************************/
-.hp-section1-hero hero-img {
+.hp-section-hero hero-img {
     grid-column: 1/-1;
     grid-row: 1;
     width: 100%;
@@ -127,24 +127,24 @@ Home section 1 Hero Image
 Home section 2 Featured: Yarn of the Week
 *************************************************/
 
-.hp-section1-featured h1 {
+.hp-section-featured h1 {
     background-color: #f4f6f8;
     grid-column: 2/3;
     grid-row: 1;
 }
 
-.hp-section1-featured img white-yarn {
+.hp-section-featured img white-yarn {
     background-color: #f4f6f8;
     grid-column: 2/3;
     grid-row: 2;
 }
 
-.hp-section1-featured p {
+.hp-section-featured p {
     background-color: #f4f6f8;
     grid-column: 2/4;
     grid-row: 3;
 }
-.hp-section1-featured img tweed-yarn {
+.hp-section-featured img tweed-yarn {
     background-color: #f4f6f8;
     grid-column: 1/3;
     grid-row: 4;
@@ -156,24 +156,24 @@ Home section 3 Techniques to know
 *************************************************/
 
 
-.hp-section1-technique h1 {
+.hp-section-technique h1 {
     background-color: #f4f6f8;
     grid-column: 4/7;
     grid-row: 1;
 }
 
-.hp-section1-technique img white-yarn {
+.hp-section-technique img white-yarn {
     background-color: #f4f6f8;
     grid-column: 4/7;
     grid-row: 2;
 }
 
-.hp-section1-technique p {
+.hp-section-technique p {
     background-color: #f4f6f8;
     grid-column: 4/7;
     grid-row: 3;
 }
-.hp-section1-technique img blue-cables {
+.hp-section-technique img blue-cables {
     background-color: #f4f6f8;
     grid-column: 4/7;
     grid-row: 4;
@@ -183,24 +183,24 @@ Home section 3 Techniques to know
 Home section 4 Practice Makes Beautiful
 *************************************************/
 
-.hp-section1-practice h1 {
+.hp-section-practice h1 {
     background-color: #f4f6f8;
     grid-column: 8/12;
     grid-row: 1;
 }
 
-.hp-section1-practice img white-yarn {
+.hp-section-practice img white-yarn {
     background-color: #f4f6f8;
     grid-column: 8/11;
     grid-row: 2;
 }
 
-.hp-section1-practice p {
+.hp-section-practice p {
     background-color: #f4f6f8;
     grid-column: 8/12;
     grid-row: 3;
 }
-.hp-section1-practice img yarn-colors {
+.hp-section-practice img yarn-colors {
     background-color: #f4f6f8;
     grid-column: 8/12;
     grid-row: 4;
