@@ -116,7 +116,7 @@
 /***********************************************
 Home section 1 Hero Image
 *************************************************/
-.hp-section hp-section-hero hero-img {
+.hp-section-hero hero-img {
     grid-column: 1/-1;
     grid-row: 1;
     width: 100%;
@@ -127,24 +127,24 @@ Home section 1 Hero Image
 Home section 2 Featured: Yarn of the Week
 *************************************************/
 
-.hp-section  h1 {
+.hp-section-featured h1 {
     background-color: #f4f6f8;
     grid-column: 2/3;
     grid-row: 1;
 }
 
-.hp-section hp-section-featured img white-yarn {
+.hp-section-featured img white-yarn {
     background-color: #f4f6f8;
     grid-column: 2/3;
     grid-row: 2;
 }
 
-.hp-section hp-section-featured p {
+.hp-section-featured p {
     background-color: #f4f6f8;
-    grid-column: 2/4;
+    grid-column: 2/3;
     grid-row: 3;
 }
-.hp-section hp-section-featured img tweed-yarn {
+.hp-section-featured img tweed-yarn {
     background-color: #f4f6f8;
     grid-column: 1/3;
     grid-row: 4;
