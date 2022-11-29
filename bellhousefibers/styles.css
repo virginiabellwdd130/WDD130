@@ -114,10 +114,10 @@
 * home page rules
 ************************************************************/
 
-.hp-section1 {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    margin-top: -100px; 
+.hp-section1 img {
+    background-color: #f4f6f8;
+    grid-column: 1/-1;
+    grid-row: 3;
 }
 
 .hp-section2 h1 {
