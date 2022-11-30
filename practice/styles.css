@@ -1,9 +1,0 @@
-.fig-block {
-    display: grid;
-    grid-template-columns: 1fr 1fr
-}
-
-.grey {
-    display: grid;
-    grid-template-columns: 1fr 1fr
-}
