@@ -124,7 +124,7 @@
 * home page rules
 ************************************************************/
 /*Home section 1 Hero Image*/
-
+/*
 .hp-section-hero hero-img {
     grid-column: 1/-1;
     grid-row: 1;
@@ -135,7 +135,7 @@
 /***********************************************
 Home section 2 Featured: Yarn of the Week
 *************************************************/
-
+/*
 .hp-section-featured h1 {
     background-color: #f4f6f8;
     grid-column: 2/3;
@@ -163,7 +163,7 @@ Home section 2 Featured: Yarn of the Week
 /***********************************************
 Home section 3 Techniques to know
 *************************************************/
-
+/*
 
 .hp-section-technique h1 {
     background-color: #f4f6f8;
@@ -191,7 +191,7 @@ Home section 3 Techniques to know
 /***********************************************
 Home section 4 Practice Makes Beautiful
 *************************************************/
-
+/*
 .hp-section-practice h1 {
     background-color: #f4f6f8;
     grid-column: 8/12;
