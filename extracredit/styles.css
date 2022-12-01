@@ -9,32 +9,45 @@ START grid layout extra credit
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     padding: 2em 2em;
+    background-color: aquamarine;
+
   }
   
   .grid1 h1 {
-    
+    font-size: 1.50em;
+    color: #81517E;
+    background-color: #EFD3AF;
   }
   
   .grid2 {
-    
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
   }
   .grid2 h2 {
-    
+    font-size: 1.50em;
+    color: #81517E;
+    background-color: #EFD3AF;
   }
   .grid3 {
-    
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
   }
   
   .grid3 h3 {
-    
+    font-size: 1.50em;
+    color: #81517E;
+    background-color: #EFD3AF;
   }
   
   .grid4 {
-    
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
   }
   
   .grid4 h2 {
-    
+    font-size: 1.50em;
+    color: #81517E;
+    background-color: #EFD3AF;
   }
   
   section {
@@ -42,7 +55,9 @@ START grid layout extra credit
   }
   
   section h2 {
-    
+    font-size: 1.50em;
+    color: #81517E;
+    background-color: #EFD3AF;
   }
   
   form {
@@ -56,6 +71,8 @@ START grid layout extra credit
   }
   
   fieldset > div {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
     
   }
   
