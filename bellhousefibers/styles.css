@@ -30,7 +30,7 @@
 
   body {
     font-family: var(--heading-font);
-    font-size: 15px;
+    font-size: 20px;
     color: var(--secondary-color);
   }
 
@@ -45,6 +45,7 @@
 
   h1 {
     font-size: 2em;
+    color:#81517E;
 
   }
 
@@ -99,15 +100,24 @@ main {
 
 .hp-section-featured { 
     grid-column: 2/5; 
-    grid-row: 2; 
+    grid-row: 2;
+    background-color:#EFD3AF;
+    color:#70556e;
+    text-align: center; 
 }     
 
 .hp-section-technique {
-    grid-column: 6/9; 
+    grid-column: 6/9;
+    background-color:#EFD3AF;
+    color:#70556e;
+    text-align: center;   
 } 
 
 .hp-section-practice {
-    grid-column: 10/13; 
+    grid-column: 10/13;
+    color:#70556e;
+    background-color:#EFD3AF;
+    text-align: center;   
 }
 
 .buttons {
@@ -264,14 +274,17 @@ nav a:hover {
 footer {
     background-color:#8E8F72;
     color: var(--accent1-color);
-    font-size: 1rem;
+    font-size: 2rem;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    grid-column: 1/-1;
+
 }
 
 .social {
     display: grid;
     grid-template-columns: repeat(3, 100px);
+    
 }
 
 
