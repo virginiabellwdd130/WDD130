@@ -32,7 +32,7 @@
     font-family: var(--heading-font);
     font-size: 20px;
     color: var(--secondary-color);
-    background-color: #EFD3AF;
+    
   }
 
   h1,
@@ -47,6 +47,7 @@
   h1 {
     font-size: 1.50em;
     color:#81517E;
+    background-color: #EFD3AF;
 
   }
 
