@@ -122,9 +122,8 @@
 *
 * home page rules
 ************************************************************/
-/***********************************************
-Home section 1 Hero Image
-*************************************************
+/*Home section 1 Hero Image*/
+
 .hp-section-hero hero-img {
     grid-column: 1/-1;
     grid-row: 1;
@@ -134,7 +133,7 @@ Home section 1 Hero Image
 
 /***********************************************
 Home section 2 Featured: Yarn of the Week
-*************************************************
+*************************************************/
 
 .hp-section-featured h1 {
     background-color: #f4f6f8;
