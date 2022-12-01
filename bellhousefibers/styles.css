@@ -92,6 +92,7 @@
 main {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    background-color: #EFD3AF;
 }
 
 .hp-section-hero { 
@@ -101,14 +102,12 @@ main {
 .hp-section-featured { 
     grid-column: 2/5; 
     grid-row: 2;
-    background-color:#EFD3AF;
     color:#70556e;
     text-align: center; 
 }     
 
 .hp-section-technique {
     grid-column: 6/9;
-    background-color:#EFD3AF;
     color:#70556e;
     text-align: center;   
 } 
@@ -116,7 +115,6 @@ main {
 .hp-section-practice {
     grid-column: 10/13;
     color:#70556e;
-    background-color:#EFD3AF;
     text-align: center;   
 }
 
