@@ -98,7 +98,8 @@ main {
 }
 
 .hp-section-hero { 
-    grid-column: 1/-1; 
+    grid-column: 1/-1;
+    align-items: center; 
 } 
 
 .hp-section-featured { 
@@ -188,7 +189,7 @@ header{
     display: grid;
     grid-template-columns: 250px auto;
     align-items: center;
-    background-color: white;
+    background-color:#8E8F72;
 }
 
 nav {
