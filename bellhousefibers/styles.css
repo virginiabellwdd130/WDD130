@@ -121,6 +121,7 @@ main {
     text-align: center;   
 }
 
+/*
 .buttons {
     grid-column: 1/-1;
     display: flex;
@@ -128,13 +129,64 @@ main {
     justify-content: space-around;
     margin: 0 30px;
     border-radius: 20px;
-
+:
 }
-/*
-.grid-section {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 1em 0;
+/* Style the form */
+
+#regForm {
+  background-color: #EFD3AF;
+  margin: 1px;
+  font-family: Playfair Display;
+  width: 20%;
+  min-width: 300px;
+}
+
+
+h1 {
+  text-align: left;  
+}
+
+
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  font-family: Playfair Display;
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+button {
+  background-color:#CF7B61;
+  color: #ffffff;
+  border: none;
+  padding: 5px 5px;
+  font-size: 17px;
+  font-family: Playfair Display;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#prevBtn {
+  background-color: #bbbbbb;
+}
+
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color:#EFD3AF;
 }
 
 
@@ -216,16 +268,20 @@ nav a:hover {
 footer {
     background-color:#8E8F72;
     color: var(--accent1-color);
-    font-size: 2rem;
+    font-size: large;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-column: 1/-1;
+
+    
 
 }
 
 .social {
     display: grid;
     grid-template-columns: repeat(3, 100px);
+    grid-column: 12;
+
     
 }
 
