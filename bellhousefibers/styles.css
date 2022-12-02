@@ -134,8 +134,7 @@ main {
 /* Style the form */
 
 #regForm {
-  background-color: #EFD3AF;
-  margin: 1px;
+  margin: 0;
   font-family: Playfair Display;
   width: 20%;
   min-width: 300px;
@@ -149,7 +148,7 @@ h1 {
 
 input {
   padding: 10px;
-  width: 100%;
+  width: 92%;
   font-size: 16px;
   font-family: Playfair Display;
   border: 1px solid #aaaaaa;
@@ -277,10 +276,17 @@ footer {
 
 }
 
+#regForm {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column: 4;
+  min-width: 100%;
+}
+
 .social {
     display: grid;
     grid-template-columns: repeat(3, 100px);
-    grid-column: 12;
+    grid-column: 13;
 
     
 }
