@@ -279,7 +279,7 @@ footer {
 #regForm {
   display: grid;
   grid-template-columns: 1fr;
-  grid-column: 4;
+/*something else needs to go here to stretch my form across the footer space?*/
   min-width: 100%;
 }
 
