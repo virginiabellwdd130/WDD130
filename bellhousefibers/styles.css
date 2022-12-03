@@ -142,26 +142,30 @@ main {
 
 }
 
-.yarnshoppe-colorway h1 {
+.yarnshoppe-colorway {
   grid-column: 9/13;
   color:#70556e;
   text-align: center;  
 }
 
 .yarnshoppe-calculator {
-  grid-column: 1/4;
+  grid-column: 1/5;
   color:#70556e;
   text-align: center;
   
 }
 
 .yarnshoppe-coupon {
-  grid-column: 1/4;
+  grid-column: 5/9;
   color:#70556e;
   text-align: center;
 }
 
-
+.yarnshoppe-mystery {
+  grid-column: 9/13;
+  color:#70556e;
+  text-align: center;
+}
 
 /* Style the form */
 
