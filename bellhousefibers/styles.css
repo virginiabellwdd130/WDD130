@@ -315,7 +315,9 @@ footer {
     font-size: large;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-column: 1/-1;
+    grid-template-rows: 1fr 1fr;
+    grid-column: 1/2;
+
 
     
 
