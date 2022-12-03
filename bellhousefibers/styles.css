@@ -285,7 +285,7 @@ header {
     display: grid;
     grid-template-columns: 250px auto;
     align-items: center;
-    background-color:#8E8F72;
+    background-color:#EFD3AF;
 }
 
 nav {
@@ -302,7 +302,7 @@ nav a {
 
 nav a:hover {
     color:#CF7B61;
-    background-color:#EFD3AF;
+    background-color:#8E8F72;
 }
 
 /**********************************************************
