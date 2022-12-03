@@ -301,7 +301,7 @@ nav a {
 }
 
 nav a:hover {
-    color:#CF7B61;
+    color:#70556e;
     background-color:#8E8F72;
 }
 
@@ -310,7 +310,7 @@ nav a:hover {
 *footer area properties
 ***********************************************************/
 footer {
-    background-color:#8E8F72;
+    background-color:#EFD3AF;
     color: var(--accent1-color);
     font-size: large;
     display: grid;
@@ -331,7 +331,8 @@ footer {
 .social {
     display: grid;
     grid-template-columns: repeat(3, 100px);
-    grid-column: 13;
+    grid-template-rows: 1fr 1fr;
+    grid-column: 1/2;
 
     
 }
