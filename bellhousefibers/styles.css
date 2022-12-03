@@ -130,39 +130,39 @@ main {
   text-align: center;  
 }
 
-.yarnshoppe-christmas {
+.yarnshoppe-christmas h1 {
   grid-column: 1/5;
   color:#70556e;
   text-align: center;  
 }
 
-.yarnshoppe-patterns {
+.yarnshoppe-patterns h1 {
   grid-column: 5/9;
   color:#70556e;
   text-align: center;  
 
 }
 
-.yarnshoppe-colorway {
+.yarnshoppe-colorway h1 {
   grid-column: 9/13;
   color:#70556e;
   text-align: center;  
 }
 
-.yarnshoppe-calculator {
+.yarnshoppe-calculator h1 {
   grid-column: 1/5;
   color:#70556e;
   text-align: center;
   
 }
 
-.yarnshoppe-coupon {
+.yarnshoppe-coupon h1 {
   grid-column: 5/9;
   color:#70556e;
   text-align: center;
 }
 
-.yarnshoppe-mystery {
+.yarnshoppe-mystery h1 {
   grid-column: 9/13;
   color:#70556e;
   text-align: center;
