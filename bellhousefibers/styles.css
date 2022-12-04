@@ -166,7 +166,7 @@ main {
 }
 
 .yarnshoppe-calculator {
-  grid-column: 1/5;
+  grid-column: 1/4;
   color:#70556e;
   text-align: center; 
 }
@@ -176,7 +176,7 @@ main {
 }
 
 .yarnshoppe-coupon {
-  grid-column: 5/9;
+  grid-column: 5/8;
   color:#70556e;
   text-align: center;
 }
@@ -187,7 +187,7 @@ main {
 
 
 .yarnshoppe-mystery {
-  grid-column: 9/13;
+  grid-column: 9/12;
   color:#70556e;
   text-align: center;
 }
