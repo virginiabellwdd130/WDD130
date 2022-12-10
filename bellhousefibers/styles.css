@@ -106,6 +106,22 @@ main .grid-kit {
 
 }
 
+
+.grid-kit img {
+  grid-column: 1/10;
+}
+
+.grid-kit h1 {
+  grid-column: 1/13;
+}
+
+.grid-kit h3 {
+  grid-column: 11/13;
+}
+
+
+
+
 .hp-section-hero { 
     grid-column: 1/-1;
     align-items: center; 
