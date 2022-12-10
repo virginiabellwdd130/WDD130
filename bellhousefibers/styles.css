@@ -199,8 +199,11 @@ main {
 
 
 .yarnshoppe-form {
-  grid-column: 1/span 13;
+  grid-column: 1/-1;
 }
+
+
+
 /* Style the form */
 
 #regForm {
