@@ -94,7 +94,7 @@
 
 main {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(12 1fr);
     grid-gap: 10px;
     
 
@@ -102,7 +102,7 @@ main {
  
 .grid-kit {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(12 1fr);
   grid-gap: 10px;
   padding: 10px 10px;
   margin: 20px 20px;
@@ -118,7 +118,7 @@ main {
   grid-column: 8/13;
   grid-row: 1;
   text-align: center;
-  background-color: none;
+  background-color: #EFD3AF;
 }
 
 .grid-kit h3 {
@@ -128,7 +128,7 @@ main {
 
 .knit-list {
   display: grid;
-  grid-column: 1/-1;
+  grid-column: 1/13;
   background-color: #EFD3AF;
 }
 
@@ -142,8 +142,8 @@ main {
 }
 
 .grid-history h1 {
-  grid-column: 8/13;
-  grid-row: 1;
+  grid-column: 1/13;
+  grid-row: 1/2;
   text-align: center;
   background-color: none;
 }
@@ -181,7 +181,7 @@ main {
 
 .grid-pattern p {
   grid-column: 2/11;
-  grid-row: 2/4;
+  grid-row: 2;
   text-align: center;
   background-color: none;
 }
