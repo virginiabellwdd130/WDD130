@@ -109,6 +109,7 @@ main {
 }
 
 .grid-kit img {
+  display: grid;
   grid-column: 1/9;
   grid-row: 1/3;
 }
