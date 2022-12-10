@@ -108,7 +108,7 @@ main {
   margin: 20px 20px;
 }
 
-.grid-kit img {
+.grid-kit article {
   display: grid;
   grid-column: 1/9;
   grid-row: 1/3;
