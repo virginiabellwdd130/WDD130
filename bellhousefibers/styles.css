@@ -128,7 +128,9 @@ main {
 .knit-list {
   display: grid;
   grid-column: 1/-1;
+  background-color: #EFD3AF;
 }
+
 .grid-history {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -140,6 +142,7 @@ main {
 
 .grid-history h1 {
   grid-column: 8/13;
+  grid-row: 1;
   text-align: center;
   background-color: none;
 }
@@ -147,12 +150,12 @@ main {
 
 .grid-history article {
   grid-column: 1/9;
-  grid-row: 2/3;
+  grid-row: 2/4;
 }
 
 .grid-history p {
-  grid-column: 10/13;
-  grid-row: 1/3;
+  grid-column: 9/12;
+  grid-row: 2/4;
   text-align: center;
   background-color: none;
 }
@@ -171,13 +174,13 @@ main {
 }
 
 .grid-pattern h1 {
-  grid-column: 1/5;
+  grid-column: 2/6;
   text-align: center;
 }
 
 .grid-pattern p {
-  grid-column: 10/13;
-  grid-row: 1/3;
+  grid-column: 2/11;
+  grid-row: 2/4;
   text-align: center;
   background-color: none;
 }
@@ -290,9 +293,7 @@ main {
   grid-column: 1/-1;
 }
 
-.knit-list {
-  grid-column: 8/13;
-}
+
 
 .grid-history {
   grid-column: 1/-1;
