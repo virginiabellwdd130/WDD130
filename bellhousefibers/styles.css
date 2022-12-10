@@ -199,7 +199,7 @@ main {
 
 
 .yarnshoppe-form {
-  grid-column: 2/12;
+  grid-column: 1/span 13;
 }
 /* Style the form */
 
