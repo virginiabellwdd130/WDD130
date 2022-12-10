@@ -197,6 +197,10 @@ main {
   text-align: center;  
 }
 
+
+.yarnshoppe-form {
+  grid-column: 2/12;
+}
 /* Style the form */
 
 #regForm {
