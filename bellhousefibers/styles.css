@@ -132,7 +132,7 @@ main {
 }
 
 .yarnshoppe-christmas {
-  grid-column: 1/4;
+  grid-column: 1/5;
   color:#70556e;
   text-align: center;
   padding-bottom: 30px;
@@ -144,7 +144,7 @@ main {
 }
 
 .yarnshoppe-patterns {
-  grid-column: 5/8;
+  grid-column: 5/9;
   color:#70556e;
   text-align: center;
   padding-bottom: 30px;
@@ -157,7 +157,7 @@ main {
 }
 
 .yarnshoppe-colorway {
-  grid-column: 9/12;
+  grid-column: 9/13;
   color:#70556e;
   text-align: center;  
 }
@@ -167,7 +167,7 @@ main {
 }
 
 .yarnshoppe-calculator {
-  grid-column: 1/4;
+  grid-column: 1/5;
   color:#70556e;
   text-align: center; 
 }
@@ -177,7 +177,7 @@ main {
 }
 
 .yarnshoppe-coupon {
-  grid-column: 5/8;
+  grid-column: 5/9;
   color:#70556e;
   text-align: center;
 }
@@ -188,7 +188,7 @@ main {
 
 
 .yarnshoppe-mystery {
-  grid-column: 9/12;
+  grid-column: 9/13;
   color:#70556e;
   text-align: center;
 }
@@ -204,6 +204,10 @@ main {
 
 .grid-kit {
   grid-column: 1/-1;
+}
+
+.knit-list {
+  grid-column: 8/13;
 }
 
 .grid-history {
