@@ -99,6 +99,13 @@ main {
 
 }
 
+main .grid-kit {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(1fr, 1fr);
+
+}
+
 .hp-section-hero { 
     grid-column: 1/-1;
     align-items: center; 
