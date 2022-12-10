@@ -94,31 +94,36 @@
 
 main {
     display: grid;
-    grid-gap: 15px;
+    grid-gap: 10px;
     grid-template-columns: repeat(12, 1fr);
 
 }
 
-main .grid-kit {
+main 
+.grid-kit
+.grid-pattern
+.grid-history {
   display: grid;
-  grid-gap: 15px;
-  
-
+  grid-gap: 10px;
+  padding: 10px 10px;
+  margin: 20px 20px;
+  grid-column: 1/-1;
 }
-
 
 .grid-kit img {
   grid-column: 1/10;
+  grid-row: 1/3;
 }
 
 .grid-kit h1 {
-  grid-column: 1/13;
+  grid-column: 10/13;
+  text-align: center;
+  background-color: none;
 }
 
 .grid-kit h3 {
   grid-column: 11/13;
 }
-
 
 
 
