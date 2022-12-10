@@ -94,6 +94,7 @@
 
 main {
     display: grid;
+    grid-gap: 10px;
     grid-template-columns: repeat(12, 1fr);
 
 }
@@ -253,7 +254,12 @@ button:hover {
   background-color:#EFD3AF;
 }
 
-
+#regForm {
+  display: grid;
+  grid-column: 1/3;
+/*something else needs to go here to stretch my form across the footer space?*/
+  min-width: 100%;
+}
 
 
 /***********************************************************
@@ -302,12 +308,6 @@ footer {
 
 }
 
-#regForm {
-  display: grid;
-  grid-column: 1/3;
-/*something else needs to go here to stretch my form across the footer space?*/
-  min-width: 100%;
-}
 
 .social {
     display: grid;
