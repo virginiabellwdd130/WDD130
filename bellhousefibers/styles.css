@@ -92,17 +92,30 @@
 
 }
 
-main {
+main-home {
     display: grid;
-    grid-template-columns: repeat(12 1fr);
+    grid-template-columns: repeat(12, 1fr);
     grid-gap: 10px;
     
 
 }
- 
-.grid-kit {
+
+main-shoppe {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 10px;
+  
+
+}
+main-blog {
   display: grid;
   grid-template-columns: repeat(12 1fr);
+  grid-gap: 10px;
+  
+
+}
+.grid-kit {
+  display: grid;
   grid-gap: 10px;
   padding: 10px 10px;
   margin: 20px 20px;
@@ -115,14 +128,14 @@ main {
 }
 
 .grid-kit h1 {
-  grid-column: 8/13;
+  grid-column: 9/13;
   grid-row: 1;
   text-align: center;
   background-color: #EFD3AF;
 }
 
 .grid-kit h3 {
-  grid-column: 8/13;
+  grid-column: 9/13;
   grid-row: 2;
 }
 
@@ -171,7 +184,7 @@ main {
 }
 
 .grid-pattern article {
-  grid-column: 1/6;
+  grid-column: 7/13;
 }
 
 .grid-pattern h1 {
@@ -183,7 +196,6 @@ main {
   grid-column: 2/11;
   grid-row: 2;
   text-align: center;
-  background-color: none;
 }
 
 
@@ -400,7 +412,7 @@ nav a:hover {
 *
 *footer area properties
 ***********************************************************/
-footer p {
+footer {
     background-color:#EFD3AF;
     color: var(--accent1-color);
     font-size: large;
